@@ -27,6 +27,8 @@ const Feedback = () => {
       case 'bad':
         setBad(bad + 1);
         break;
+      default:
+        return;
     }
   };
   const countTotalFeedback = () => {
